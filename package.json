@@ -1,0 +1,26 @@
+{
+  "name": "jekylltest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "consolelog.js",
+  "scripts": {
+    "test": "we can babel example.js -o compiled.js",
+    "build": "babel src -d lib"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ghrhome/js-good-tips.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ghrhome/js-good-tips/issues"
+  },
+  "homepage": "https://github.com/ghrhome/js-good-tips#readme",
+  "devDependencies": {
+    "babel-preset-latest": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1"
+  }
+}
