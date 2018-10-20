@@ -5,7 +5,12 @@
     <title>Title</title>
 </head>
 <body>
-
-    <script src="consolelog.js"></script>
+    <h3></h3>
+    <script src="./lib/cp.js"></script>
+    <script>
+        let point=new Point(30,40)
+        console.log(point);
+        document.getElementsByTagName("h3")[0].textContent=point.toString();
+    </script>
 </body>
 </html>
