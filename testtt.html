@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .top{
+            height:32px;
+            position: relative;
+            line-height: 32px;
+        }
+        
+        .top:after{
+            display: block;
+
+            content:"";
+            width:100%;
+            height:1px;
+            background: white;
+            background-position:top left;
+            background-repeat: repeat-x;
+            background-image: linear-gradient( 90deg, #ddd 50%, transparent 0);
+            background-size: 4px 1px;
+            overflow: hidden;
+
+            -webkit-transform: scaleY(.5);
+            -moz-transform: scaleY(.5);
+            -ms-transform: scaleY(.5);
+            -o-transform: scaleY(.5);
+            transform: scaleY(.5);
+        }
+        
+        ul.test{
+            list-style: none;
+        }
+        ul.test li{
+            position: relative;
+            line-height: 28px;
+        }
+        
+        ul.test li:after{
+            position: absolute;
+            bottom:0;
+            left:0;
+            display: block;
+            border-bottom:solid 1px #ddd;
+            content:"";
+            height:1px;
+            width:100%;
+            -webkit-transform: scaleY(.5);
+            -moz-transform: scaleY(.5);
+            -ms-transform: scaleY(.5);
+            -o-transform: scaleY(.5);
+            transform: scaleY(.5);
+        }
+    </style>
+</head>
+<body>
+    <h3 class="top">title</h3>
+    <ul class="test">
+        <li>test</li>
+    </ul>
+</body>
+</html>

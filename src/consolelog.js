@@ -14,20 +14,32 @@ const baz={
     name:"harry",age:50,nervous:true
 };
 
-'bad Code 💩'
+/*'bad Code 💩'
 console.log(foo)
 console.log(bar)
 console.log(baz)
 
 
-console.log('%c My Friend',"color:Red;font-weight:bold")
+
+console.log('%c My Friend',"color:Red;font-weight:bold")*/
 
 'good Code 🎖'
-console.log({foo,bar,baz});
-console.table({foo,bar,baz})
+/*console.log({foo,bar,baz});
+console.table({foo,bar,baz})*/
 console.table([foo,bar,baz])
 
 
+function countTest(){
+    console.count("countTest")
+    console.trace("count--")
+
+}
+
+countTest();
+
+countTest();
+
+/*
 //console.time
 console.time("loop")
 
@@ -49,6 +61,7 @@ testTrace();
 
 
 
+*/
 
 
 

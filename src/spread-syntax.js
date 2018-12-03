@@ -9,20 +9,23 @@ const stats={
     hp:40, attack:60, defence:45
 }
 
-'bad Code 💩'
+/*'bad Code 💩'
 
 pikachu['hp']=stats.hp;
 pikachu['attack']=stats.attack;
-pikachu['defence']=stats.defence;
-//or
-const lv1=Object.assign(pikachu,stats);
-const lv2=Object.assign(pikachu,{hp:45});
+pikachu['defence']=stats.defence;*/
 
+/*//or
+const lv1=Object.assign(pikachu,stats);
+const lv2=Object.assign(pikachu,{hp:45});*/
 'Good Code 🎖'
 
 const lv1={...pikachu,...stats};
 const lv2={...pikachu,...{hp:45}};
+console.log(lv1)
+console.log(lv2)
 
+/*
 //arrays
 let pokemon=['Arbok', 'Raichu', 'Sandshrew'];
 
@@ -32,7 +35,7 @@ pokemon.push("Metapod");
 'Good Code 🎖'
 pokemon=[...pokemon,'Bulbasaur',"metapod"];
 
-console.log(pokemon);
+console.log(pokemon);*/
 
 
 

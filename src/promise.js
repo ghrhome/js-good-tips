@@ -38,7 +38,7 @@ const random=() => {
 
 'good'
 
-const sumRandomAsyncNums=async()=>{
+const sumRandomAsyncNums=async ()=>{
     const first=await random();
     const second=await random();
     const third=await random();
